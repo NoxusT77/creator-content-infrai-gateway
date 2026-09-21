@@ -1,0 +1,19 @@
+{
+  "name": "creator-content-infrai-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/content_workflow.ts",
+    "test": "tsx src/content_workflow.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
